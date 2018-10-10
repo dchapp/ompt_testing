@@ -14,7 +14,7 @@
 * KASTORS OpenMP Benchmark Suite 
     * P. Virouleau, P. Brunet, F. Broquedis, N. Furmento, S. Thibault, O. Aumage, T. Gautier. 
       Evaluation of OpenMP dependent tasks with the KASTORS benchmark suite. 
-      In Proceedings of the International Workshop on OpenMP, pp. 17-29, 2014.
+      In Proceedings of the International Workshop on OpenMP (IWOMP), pp. 17-29, 2014.
     * These benchmark codes were adapated from the BOTS benchmarks
       and modified to use the `depend` clause in `task` directives
       for fine-grained task synchronization. 
