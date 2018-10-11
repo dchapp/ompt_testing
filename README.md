@@ -3,9 +3,10 @@
 ## Overview
 
 ### OpenMP Tools Under Test
-* Skeleton
+* Skeleton (https://github.com/TauferLab/OMPT_skeleton)
 * Event Counter (https://github.com/TauferLab/OMPT_event_counter)
-* Dependency DAG Analyzer 
+* Ancestry Tracker (https://github.com/TauferLab/OMPT_ancestry_tracker)
+* Dependency DAG Analyzer (TBA)
 
 ### Applications Tested Against
 * Barcelona OpenMP Tasks Suite (https://github.com/bsc-pm/bots)
