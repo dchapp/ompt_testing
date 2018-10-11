@@ -3,7 +3,7 @@
 DATE=`date '+%Y.%m.%d.%H.%M.%S'`
 
 echo "Archiving current data and figures" 
-data="./results/kastors/event_counts/"
+data="../results/kastors/event_counts/"
 data_dirs=""
 for dir in ${data}/[^archive]*/
 do
