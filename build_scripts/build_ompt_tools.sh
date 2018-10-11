@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash 
 
 tools_root="$HOME/repos/ompt_tools"
 dagtool_root="${tools_root}/dagtool"
