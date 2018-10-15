@@ -101,7 +101,15 @@ def make_event_counts_grouped_barchart(nthreads_to_stats, data_dir, figures_dir)
     title = prettify_app_name(get_app_name_from_path(data_dir))
     ax.set_title(title)
     ax.set_yscale("log")
-    ax.legend(loc="best")
+
+    # Make external legend 
+    #ax.legend(loc="best")
+    ax.legend(loc = "lower left", 
+              bbox_to_anchor = (1.01, 0.0),
+              ncol = 1,
+              borderaxespad = 0,
+              frameon = False
+             )
     
     # Save
     dpi = 300
