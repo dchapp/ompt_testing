@@ -15,7 +15,11 @@ thread_counts=(1 2 4 8 16 32)
 root_result_dir="${HOME}/repos/OMPT_Testing/results/kastors/event_counts/"
 mkdir -p ${root_result_dir}
 
-cd ${kastors_bin_dir}
+bin_dir="$HOME/repos/OMPT_Testing/bin/kastors"
+mkdir -p ${bin_dir}
+cp ${kastors_bin_dir}/* ${bin_dir}
+
+cd ${bin_dir}
 for app in ${apps[@]}
 do 
     echo "Working on application: ${app}"

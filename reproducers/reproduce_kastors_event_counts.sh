@@ -1,10 +1,10 @@
 #!/usr/bin/env bash 
 
-event_counts_n_trials=10
+n_trials=10
 
 ../build_scripts/build_event_counter_tool.sh
-../build_scripts//build_kastors_event_counter.sh
-../job_scripts/collect_kastors_event_counts.sh ${event_counts_n_trials} 
+../build_scripts/build_kastors_event_counter.sh
+../job_scripts/collect_kastors_event_counts.sh ${n_trials} 
 
 data=../results/kastors/event_counts/
 for dir in "${data}"/[^archive]*/
