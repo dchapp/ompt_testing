@@ -1,0 +1,5 @@
+# exclude everything
+bin/*
+
+# except itself
+!bin/.gitignore
