@@ -24,8 +24,8 @@ cd ${ancestry_tracker_root}/src
 make clean
 make
 
-## Build the dependency analysis tool
-#echo "Building full dependency analysis OMPT tool"
-#cd ${dependency_tracker_root}/src
-#make clean
-#make 
+# Build the dependency analysis tool
+echo "Building full dependency analysis OMPT tool"
+cd ${dependency_tracker_root}/src
+make clean
+make 

@@ -13,6 +13,7 @@ tools=("no"
        "skeleton"
        "event_counter" 
        "ancestry_tracker"
+       "dependency_tracker" 
       )
 #thread_counts=(1 2 4 8 16 32)
 thread_counts=(16 32)
@@ -60,6 +61,7 @@ do
             do
                 echo "Run ${run} in progress..."
                 export TASK_TREE_DOTFILE="${results_dir}/tree_${run}.dot"
+                export TASK_DAG_DOTFILE="${results_dir}/dag_${run}.dot"
                 #echo "${staging_dir}/${app}_${tool} >& ${root_result_dir}/${apps}/${nt}/${tool}"
                 "${staging_dir}/${app}_${tool}" >& "${results_dir}/${run}.txt"
             done

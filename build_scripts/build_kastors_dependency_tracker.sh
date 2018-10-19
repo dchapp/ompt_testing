@@ -2,7 +2,7 @@
 
 kastors_dir="/g/g17/chapp1/repos/kastors-1.1/"
 build_dir="${kastors_dir}/build_dependency_tracker_tool"
-tool_dir="/g/g17/chapp1/repos/ompt_tools/dependency_tracker/lib"
+tool_dir="/g/g17/chapp1/repos/ompt_tools/dependency_tracker/build/lib"
 cd ${kastors_dir}
 mkdir -p ${build_dir}
 make clean

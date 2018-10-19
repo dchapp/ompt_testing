@@ -6,6 +6,7 @@ tools=(
        "skeleton"
        "event_counter" 
        "ancestry_tracker"
+       "dependency_tracker"
       )
 
 # Build KASTORS with no tool linked
